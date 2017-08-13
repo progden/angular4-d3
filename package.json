@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "update": "yarn"
   },
   "private": true,
   "dependencies": {
@@ -21,10 +22,12 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "bootstrap": "3",
     "core-js": "^2.4.1",
     "jquery": "^3.2.1",
     "rxjs": "^5.4.1",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "d3": "^4.10.0"
   },
   "devDependencies": {
     "@angular/cli": "1.2.7",
