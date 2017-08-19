@@ -10,7 +10,8 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "assets/miserable.json"
+        "assets/data/miserable.json",
+        "assets/data/energy.json"
       ],
       "index": "index.html",
       "main": "main.ts",

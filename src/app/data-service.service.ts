@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Graph} from './model/Graph';
+import {Graph} from './d3-force-dragging-i/model/Graph';
 import * as d3 from 'd3';
 
 @Injectable()
@@ -9,7 +9,11 @@ export class DataService {
   }
 
   getMiserable(): Promise<Graph> {
-    return d3.promise.json('assets/miserable.json');
+    return d3.promise.json('assets/data/miserable.json');
+  }
+
+  getEnergy(): Promise<Graph> {
+    return d3.promise.json('assets/data/energy.json');
   }
 
   private factory(d3) {

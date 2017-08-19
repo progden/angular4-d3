@@ -1,9 +1,0 @@
-/deep/ .link {
-  stroke: #aaa;
-}
-
-/deep/ .node {
-  pointer-events: all;
-  stroke: none;
-  stroke-width: 40px;
-}
