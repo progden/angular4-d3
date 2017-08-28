@@ -16,6 +16,10 @@ export class DataService {
     return d3.promise.json('assets/data/energy.json');
   }
 
+  getMorley(): Promise<Array<any>> {
+    return d3.promise.csv("assets/data/morley.csv");
+  }
+
   private factory(d3) {
     'use strict';
     function promisify(caller, fn) {
